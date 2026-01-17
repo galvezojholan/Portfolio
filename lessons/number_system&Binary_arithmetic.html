@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Digital Logic System</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="lesson-header">
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="images/lesson_icon.jpg" alt="Profile">
+        <figcaption>
+          <h1>Number System and Binary Arithmetic</h1>
+          <span class="badge">Lesson</span>
+        </figcaption>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../skill.html">Skills</a></li>
+          <li><a href="../lesson_gallery.html" class="active">Lessons</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-wrapper">
+    <main class="content">
+      <h2>Introduction</h2>
+      <section class="lesson-box">
+        <p>
+          This lesson intoduces the various number systems used in computing and how binary arithmetic works.
+        </p>
+      </section>
+      <h2>Objective</h2>
+      <section class="lesson-box">
+        <p>
+          <b>The lesson aims to help students understand:</b>
+        <ul type="disc">
+          <li>Various number system</li>
+          <li>How to compute system operations such as addition, subtraction</li>
+          <li>To perform number conversion, fixed point and floating-point number presentation</li>
+        </ul>
+        </p>
+      </section>
+      <hr class="mt-12">
+      <h1>Lesson Content</h1>
+      <h2><b>Overview: Number System and Binary Arithmetic</b></h2>
+      <br>
+      <h2><b>Introductiong to Number System</b></h2>
+      <section class="lesson-box">
+        <p>
+          <b>Number System</b> is a method of representing numbers with the help of a set of symbols and rules; it is a mathematical notation used to represent quantities or values in various forms.
+        <br>
+        <i>Please remember every piece of data in a computer—whether it’s text, images, sound, video, code, or memory addresses—is ultimately stored as binary, a string of 0s and 1s making numbers and number systems the core of computing.</i>
+        <br>
+        <ul type="disc">
+          <li>Human understand decimal, and computers understand binary, so we have two different number systems.</li>
+          <li>Binary representation becomes lengthy for large data sets, so systems like octal and hexadecimal are used to group binary digits, making the data more readable and less prone to errors.</li>
+        </ul>
+        </p>
+        <br><br>
+          <img src="images/Number_System.png" alt="Number System" width="500" height="300">
+          <p>
+            As shown in Figure 1, binary is the foundation of all data representation in computers. Let’s now explore the different number systems that enable this process.
+            <br>
+            Number systems provide a structured way to represent numbers, enabling arithmetic operations and ensuring consistent, understandable notation.
+          </p>
+          <ul type="disc">
+            <li>Uses a base (or radix) to represent values.</li>
+            <li>The base refers to the number of unique digits, including zero, that a system uses to represent numbers.</li>
+            <li>Each system has its own set of rules for representing.</li>
+          </ul>
+      </section>
+      <h2><b>Types of Number System</b></h2>
+      <section class="lesson-box">
+        <img src="images/Number System.png" alt="Number System" width="500" height="300">
+        <p>
+         Number systems are of various types based on their base value and the number of allowed digits.
+        </p>
+      </section>
+      <h2> Decimal Number System</h2>
+      <section class="lesson-box">
+        <div class="lesson-text">
+          <p>
+            The <b>Decimal Number System</b> is the standard system for denoting numbers.
+          <ul type="disc">
+            <li>Also called the base-10 system.</li>
+            <li>Uses ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.</li>
+            <li>Each digit's position represents a power of 10.</li>
+            <li>From right to left - units has the place value as 100, Tens has the place value as 101, Hundreds as 102, Thousands as 103, and so on.</li>
+          </ul>
+          </p>
+          <div class="wrapper">
+            <p>
+              Example:
+            <br> 10285 can be written as:
+            <br> 10285 = (1 × 104) + (0 × 103) + (2 × 102) + (8 × 101) + (5 × 100)
+            <br> 10285 = 1 × 10000 + 0 × 1000 + 2 × 100 + 8 × 10+ 5 × 1
+            <br> 10285 = 10000 + 0 + 200 + 80 + 5
+            <br> 10285 = 10285
+            </p>
+          </div>
+        </div>
+      </section>
+       <h2> Binary Number System</h2>
+      <section class="lesson-box">
+        <div class="lesson-text">
+          <p>
+            The <b>Binary Number System</b> is the number system with base 2.
+          <ul type="disc">
+            <li>The numbers are formed using two digits - 0 and 1.</li>
+            <li>Binary number system is very useful in electronic devices and computer systems because it can be easily performed using just two state i.e. 0 and 1. </li>
+            <li>Each digit in the number is at a specific place value that is powers of 2.</li>
+            <li>From right to left - as powers of 2 i.e. 20, 21, 22, etc.</li>
+          </ul>
+          Binary Numbers can be converted to Decimal value by multiplying each digit with the place value and then adding the result.
+          </p>
+          <div class="wrapper">
+            <p>
+              Example:
+            <br>  (1011)₂ can be written as:
+            <br>  (1011)₂ = 1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰
+            <br>  (1011)₂ = 1 × 8 + 0 × 4 + 1 × 2 + 1 × 1
+            <br>  (1011)₂ = 11 (in decimal)
+            </p>
+          </div>
+        </div>
+      </section>
+      <h2> Octal Number System</h2>
+      <section class="lesson-box">
+        <div class="lesson-text">
+          <p>
+            The <b>Octal Number System</b> is the number system with base 8.
+          <ul type="disc">
+            <li>The numbers are formed using 8 digits i.e. 0, 1, 2, 3, 4, 5, 6, 7.</li>
+            <li>Octal number system is useful for representing file permissions in Unix/Linux operating systems.</li>
+            <li>Each digit in the number is at a specific place value that is powers of 8.</li>
+            <li>From right to left - as powers of 2 i.e. 20, 21, 22, etc.From right to left - as powers of 8 i.e. 80, 81, 82, etc.</li>
+          </ul>
+          Octal Numbers can be converted to Decimal value by multiplying each digit with the place value and then adding the result.
+          </p>
+          <div class="wrapper">
+            <p>
+              Example:
+            <br>   (325)8  can be written as
+            <br>   (325)8 = 3 × 8² + 2 × 8¹ + 5 × 8⁰
+            <br>   (325)8 = 192 + 16 + 5
+            <br>   (325)8 = 213 (in decimal)
+            </p>
+          </div>
+        </div>
+      </section>
+      <h2> Hexadecimal Number System</h2>
+      <section class="lesson-box">
+        <div class="lesson-text">
+          <p>
+            The <b>Hexadecimal Number System</b> is the number system with base 16.
+          <ul type="disc">
+            <li>The numbers are formed using 16 digits i.e. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.</li>
+            <li>Hexadecimal Numbers are useful for handling memory address locations.</li>
+            <li>The digits from 0 to 9 are used as in the decimal system, but the numbers 10 to 15 are represented using the letters A to F as follows: 10 is represented as A, 11 as B, 12 as C, 13 as D, 14 as E, 15 as F. 
+            <br>ii. Place Value: the position of the digit. Each digit in the number is at a specific place value that is powers of 16. (from right to left - as powers of 16 i.e. 160, 161, 162, etc)</li>
+          </ul>
+          Hexadecimal Number System an be converted to Decimal value by multiplying each digit with the place value and then adding the result.
+          </p>
+          <div class="wrapper">
+            <p>
+              Example:
+            <br>   (2F)16 can be written as
+            <br>   (2F)16 = 2 × 16¹ + F × 16⁰
+            <br>   (2F)16 = 2 × 16 + 15 × 1
+            <br>   (2F)16 = 32 + 15
+            <br>   (2F)16= 47 (in decimal)
+            </p>
+          </div>
+          </div>
+          <p>Also check:</p>
+          <div class="wrapper">
+        <p>
+          Conversion of number systems:
+        <ul type="disc">
+          <li><a href="https://www.geeksforgeeks.org/digital-logic/decimal-number-system/">Decimal to Other Number System</a></li>
+          <li><a href="https://www.geeksforgeeks.org/maths/binary-number-system/">Binary to Other Number System</a></li>
+          <li><a href="https://www.geeksforgeeks.org/maths/octal-number-system/">Octal to Other Number System</a>
+          <li><a href="https://www.geeksforgeeks.org/maths/hexadecimal-number-system/">Hexadecimal to Other Number System</a></li>
+        </ul>
+        </p>
+        </div>
+        </section>
+         <h2> Binary Arithmetic Operations</h2>
+      <section class="lesson-box">
+        <h3>Adding Binary Values</h3>
+      <p>Adding two binary values is easy; there are only eight rules to learn. Here are the rules for Binary Addition:
+        <ul type="disk">
+          <li>0 + 0 = 0</li>
+          <li>0 + 1 = 1</li>
+          <li>1 + 0 = 1</li>
+          <li>1 + 1 = 0 with carry</li>
+          <li>carry + 0 + 0 = 1</li>
+          <li>carry + 0 + 1 = 0 with carry</li>
+          <li>carry + 1 + 0 = 0 with carry</li>
+          <li>carry + 1 + 1 = 1 with carry</li>
+        </ul>
+        Once you know these eight rules you can add any two binary values together.
+        <br>
+        Here are some complete examples of binary addition:
+      </p>
+      <hr>
+      <img src="images/addition.png" width="300" height="180" >
+      <img src="images/add.png" width="300" height="180">
+    </section>
+      <section class="lesson-box">
+         <h3>Subtracting Binary Values</h3>
+      <p>Binary subtraction is also easy; like addition, binary subtraction has eight rules:
+        <ul type="disk">
+          <li>0 - 0 = 0</li>
+          <li>0 - 1 = 1 with borrow</li>
+          <li>1 - 0 = 1</li>
+          <li>1 - 1 = 0</li>
+          <li>0 - 0 - borrow = 1 with a borrow</li>
+          <li>0 - 1 - borrow = 0 with a borrow</li>
+          <li>1 - 0 - borrow = 0</li>
+          <li>1 - 1 - borrow = 1 with a borrow</li>
+        </ul>
+        <br>
+        Here are some complete examples of binary subtraction:
+      </p>
+      <hr>
+      <img src="images/subtraction.png" width="300" height="180">
+      <img src="images/sub.png" width="300" height="180">
+      </section>
+      <section class="lesson-box">
+        <h2>References</h2>
+        <p>
+        <ul type="disc">
+          <li><a href="https://www.pinterest.com/">Pinterest</a></li>
+          <li><a href="https://www.geeksforgeeks.org/maths/number-system-in-maths/">Greeks for geeks</a></li>
+          <li><a href="https://cdn.ttgtmedia.com/searchEnterpriseLinux/downloads/WGC_Chapter_3.pdf">ttgtmedia.com</a></li>
+          <li><a href="https://www.slideshare.net/slideshow/binary-arithmetic-operations/250820393">Slideshare</a></li>
+        </ul>
+        </p>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p class="container">© 2026 Jholan E. Galvezo Portfolio</p>
+  </footer>
+
+</body>
+</html>

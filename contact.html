@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header>
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="images/Galvezo_Photo.jpg" alt="Profile">
+        <figcaption>
+          <h1>Jholan Galvezo</h1>
+          <span class="badge">Contact</span>
+        </figcaption>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="skill.html">Skills</a></li>
+          <li><a href="lesson_gallery.html">Lessons</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section>
+      <header class="section-title">
+        <h3>Contact Me</h3>
+      </header>
+      <br><br>
+      <section class="contact-info mt-12">
+      <h4>Get in touch</h4>
+      <p>Email: galvezojholan2@gmail.com</p>
+      <p>Phone: 09301234349</p>
+      <p>GitHub: galvezojholan</p>
+      </section>
+      <br><br>
+      <section class="card mt-12">
+        <form id="contactForm" novalidate>
+          <fieldset class="form-row">
+            <input class="input" type="text" name="name" placeholder="Your name" aria-label="Your name">
+            <input class="input" type="email" name="email" placeholder="Your email" aria-label="Your email">
+          </fieldset>
+          <p class="mt-12">
+            <textarea class="input" name="message" rows="6" placeholder="Your message" aria-label="Your message"></textarea>
+          </p>
+          <p class="mt-12">
+            <button class="btn" type="submit">Send Message</button>
+          </p>
+        </form>
+      </section>
+
+      <dialog id="modal" class="modal" style="display:none" role="dialog" aria-modal="true" aria-hidden="true">
+        <article class="dialog card">
+          <p id="modalMsg">Thanks — your message was received.</p>
+          <p class="mt-12 center">
+            <button id="closeModal" class="btn">OK</button>
+          </p>
+        </article>
+      </dialog>
+
+    </section>
+  </main>
+
+  <footer>
+    <p class="container">© 2026 Jholan E. Galvezo Portfolio</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

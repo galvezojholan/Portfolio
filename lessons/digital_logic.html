@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Number System & Binary Arithmetic</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="lesson-header">
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="images/lesson_icon.jpg" alt="Profile">
+        <figcaption>
+          <h1>Digital Logic System</h1>
+          <span class="badge">Lesson</span>
+        </figcaption>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../skill.html">Skills</a></li>
+          <li><a href="../lesson_gallery.html" class="active">Lessons</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <div class="main-wrapper">
+  <main class="content">
+    <h2>Introduction</h2>
+  <section class="lesson-box">
+    <p>
+      This lesson introduces the concept of digital logic.
+    </p>
+  </section>
+  <h2>Objective</h2>
+  <section class="lesson-box">
+    <p>
+      <b>After studying this lesson, the learners should be able to:</b>
+      <ul type="disc">
+      <li>Understand the concept of digital Logic and other part of it</li>
+      </ul>
+    </p>
+  </section>
+  <hr class="mt-12">
+  <h1>Lesson Content</h1>
+  <h2><b>Overview: Digital Logic System</b></h2>
+  <br>
+  <h2>Digital Logic</h2>
+  <section class="lesson-box">
+    <p>
+    Digital electronics and logic design are the foundation of modern computing systems, controlling everything from smartphones to advanced computers.
+    Digital electronics focuses on circuits that process binary data (0s and 1s).
+    <ul type="disc">
+      <li>Uses logic gates (AND, OR, NOT) to build circuits for logical operations.</li>
+      <li>In Combinational circuits, the output depends only on current inputs</li>
+      <li>Sequential circuits use memory (e.g., flip-flops) to store and process data over time </li>
+      <li>Fundamental for designing processors, memory systems, and other computing devices</li>
+    </ul>
+    Digital electronics and logic design provide the foundation for all modern computing systems, enabling devices to process and store information in binary form.
+    </p>
+  </section>
+  <h2>Number System and Data Presentation</h2>
+  <section class="lesson-box">
+    <p>
+     Represents and converts data using binary, octal, decimal, hexadecimal, and specialized codes like Gray and BCD.
+    <ul type="disc">
+          <li><a href="https://www.geeksforgeeks.org/digital-logic/number-system-and-base-conversions/">Number System and Bases Conversion</a></li>
+          <li><a href="https://www.geeksforgeeks.org/digital-logic/decimal-number-system/">Decimal to Other Number System</a></li>
+          <li><a href="https://www.geeksforgeeks.org/maths/binary-number-system/">Binary to Other Number System</a></li>
+          <li><a href="https://www.geeksforgeeks.org/maths/octal-number-system/">Octal to Other Number System</a>
+          <li><a href="https://www.geeksforgeeks.org/maths/hexadecimal-number-system/">Hexadecimal to Other Number System</a></li>
+        </ul>
+    </p>
+      </section>
+      <section class="lesson-box">
+        <h2>Digital Logic & Microoperations</h2>
+      <p>
+       Utilizes logic gates to perform fundamental operations, forming the basis for complex digital circuit functionality.
+      </p>
+      <h3>Logic gates</h3>
+      <ul type="disc" >
+        <li>Used to perform logical operations based on the inputs provided to it and gives a logical output that can be either high(1) or low(0).</li>
+        <li>The operation of logic gates is based on Boolean algebra, or mathematics.</li>
+        <li>There are basically seven main types of logic gates that are used to perform various logical operations in digital systems.</li>
+        <li>By combining different logic gates, complex operations are performed, and circuits like flip-flops, counters, and processors are designed. In this article, we will see various types of logic gates in detail.</li>
+        <li>Logic gates find their uses in our day-to-day lives, such as in the architecture of our telephones, laptops, tablets and memory devices.</li>
+      </ul>
+      </section>
+      <section class="lesson-box">
+      <h2>Types of Logic Gates</h2>
+      <p>
+       Logic gates can be broadly classified into three main categories :
+      <ul type="disc">
+        <li><b>AND GATE</b> is used to perform logical Multiplication of binary input. The Output state of the AND gate will be high (1) if both the input is high (1), else the output state will be low(0) if any of the input is low (0).</li>
+      The Boolean Expression or logic for the AND gate is the logical multiplication of inputs denoted by a full stop or single dot as :
+      </p>
+      <div class="wrapper">
+            <p>
+             X = A.B
+            <br> The value of X will be True when both the inputs will be True.
+            </p>
+          </div>
+      <img src="images/AND GATE.png" alt="AND Gate" width="300" height="180">
+    </p>
+    <h3>Properties</h3>
+      <p>
+        The following are two main properties of the AND gate:
+        <ol>
+          <li>AND gate can accept two or more than two input values at a time.</li>
+          <li>When all of the inputs are logic 1, the output of this gate is logic 1</li>
+        </ol>
+      </p>
+        <br><br>
+        <li><b>OR GATE</b> is most widely used digital logic circuit. The output state of OR gate will be high i.e., (1) if any of the input state is high or 1, else output state will be low i.e., 0.</li>
+        The Boolean Expression for the OR gate is the logical addition of inputs denoted by plus sign (+) as :
+      <br><br>
+       <div class="wrapper">
+            <p>
+              X = A+B
+            <br> The value of X will be high(true) when one of the inputs is set to high (true).
+            </p>
+        </div>
+      <img src="images/OR GATE.png" alt="OR Gate" width="300" height="180">
+    <h3>Properties</h3>
+      <p>
+        An OR gate have the following two properties:
+        <ol>
+          <li>It can have two or more input lines at a time.</li>
+          <li>When all of the inputs to the OR gate are low or logic 0, the output of it is low or logic 0.</li>
+        </ol>
+      </p>
+        <br><br>
+        <li><b>NOT GATE</b> is one of the basic Logic Gate having only a single input and a single output. It is also known as inverter or inverting buffer. When the input signal is "low" the output signal is "high" and vice-versa.</li>
+        The Boolean expression of NOT Gate is as follows:
+      <br><br>
+      <div class="wrapper">
+            <p>
+              Y =  Ā  or
+            <br>
+              Y = A’
+            <br> the value of Y will be high when A will be low.
+            </p>
+        </div>
+      <img src="images/NOT GATE.png" alt="NOT Gate" width="300" height="180">
+      <h3>Properties</h3>
+      <p>
+        An NOT gate have the following two properties:
+        <ol>
+          <li>The output of a NOT gate is complemented or inverse of the input applied to it.</li>
+          <li>NOT gate takes only one output.</li>
+        </ol>
+      </p>
+      <br><br>
+      <li><b>NOR GATE</b>  is the type of universal logic gate. It takes two or more inputs and gives only one output. The output state of the NOR gate will be high (1) when all the inputs are low (0). NOR gate returns the complement result of the OR gate. It is basically a combination of two basic logic gates i.e., OR gate and NOT gate.</li>
+      The Boolean expression of NOR Gate is as follows:
+      <br><br>
+      If A and B are considered as two inputs, and O as output, then the expression for a two input NOR gate will be
+      <br><br>
+      <div class="wrapper">
+            <p>
+              O = (A + B)’
+            <br>The value of O will be true when all of its inputs are set to 0.
+            </p>
+        </div>
+      <img src="images/NOR GATE.png" alt="NOR Gate" width="300" height="180">
+      <h3>Properties</h3>
+      <p>
+        The following are two important properties of NOR gate:
+        <ol>
+          <li>A NOR gate can have two or more inputs and gives an output.</li>
+          <li>A NOR gate gives a high or logic 1 output only when it's all inputs are low or logic 0.</li>
+        </ol>
+      </p>
+      <br><br>
+      <li><b>NAND GATE</b>  is another type of Universal logic gate. The NAND gate or "Not AND" is the combination of two basic logic gates AND gate and the NOT gate connected in series. It takes two or more inputs and gives only one output. The output of the NAND gate will give result high (1) when either of its input is high (1) or both of its input are low (0). In simple, it performs the inverted operation of AND gate.</li>
+      The Boolean Expression of NAND Gate is as follows:
+      <br><br>
+      Say we have two inputs, A and B and the output is called X, then the expression is
+      <br><br>
+      <div class="wrapper">
+            <p>
+               X = (A. B)’
+            </p>
+        </div>
+      <img src="images/NAND.png" alt="NAND Gate" width="300" height="180">
+      <h3>Properties</h3>
+      <p>
+       The following are the two key properties of NAND Gate:
+        <ol>
+          <li>NAND gate can take two or more inputs at a time and produces one output based on the combination of inputs applied.</li>
+          <li>NAND gate produces a low or logic 0 output only when its all inputs are high or logic 1.</li>
+        </ol>
+      </p>
+      <br><br>
+      <li><b>XOR GATE</b> is used in digital circuits to perform modulo sum. It is also referred to as Exclusive OR gate or Ex-OR gate. </li>
+      <br><br>
+      Say we have two inputs, A and B and the output is called X, then the expression is
+      <br><br>
+      The boolean expression of XOR is as follows
+       <div class="wrapper">
+            <p>
+              X = A’B + AB’
+            </p>
+        </div>
+      <img src="images/XOR GATE.png" alt="XOR Gate" width="300" height="180">
+      <h3>Properties</h3>
+      <p>
+       The following two are the main properties of the XOR gate:
+        <ol>
+          <li>It can accept only two inputs at a time. There is nothing like a three or more input XOR gate.</li>
+          <li>The output of the XOR gate is logic 1 or high, when its inputs are dissimilar.</li>
+        </ol>
+      </p>
+      <br><br>
+      <li><b>XNOR GATE</b> is the combination of XOR gate and NOT gate. The output of the XNOR gate is high(1) when both the inputs are high (1) or low(0). </li>
+      The following is the Boolean expression of the XNOR gate,
+      <br><br>
+      Y = A ⊙ B
+      <br>
+      Here, A and B are the input variables and Y is the output variable.
+      <br>
+      This expression can also be written as follows,
+      <br><br>
+      Y = AB + A’B’
+      <br>
+      We can also express the operation of an XNOR gate using XOR gate logic as follows:
+      <br><br>
+      Y = (A ⊕ B)’
+      <br>
+      <img src="images/XNOR GATE.png" alt="XNOR Gate" width="300" height="180">
+      <h3>Properties</h3>
+      <p>
+       The following are two key properties of XNOR gate:
+        <ol>
+          <li>XNOR gate takes only two inputs and produces one output.</li>
+          <li>The output of the XNOR gate is high or logic 1 only when it has similar inputs.</li>
+        </ol>
+      </p>
+      <br><br>
+      </ul>
+    </p>
+      </section>
+      <section class="lesson-box">
+    <h2>Logic Gates with Symbols, Boolean Expressions, and Truth Tables</h2>
+    <img src="images/logic gates.png" alt="Logic Gates" width="800" height="600">
+    </section>
+    <section class="lesson-box">
+    <h2>References</h2>
+    <p>
+    <ul type="disc">
+      <li><a href="https://www.geeksforgeeks.org/digital-logic/logic-gates/">geeks for geeks</a></li>
+    </ul>
+    </p>
+  </section>
+</main>
+</div>
+
+  <footer>
+    <p class="container">© 2026 Jholan E. Galvezo Portfolio</p>
+  </footer>
+
+</body>
+</html>
